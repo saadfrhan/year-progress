@@ -1,4 +1,4 @@
-# YearGauga ([Live](https://yeargauge.vercel.app/))
+# YearGauge ([Live](https://yeargauge.vercel.app/))
 
 This is a project that tells how much of the current has passed in percentage and how much is left of it.
 

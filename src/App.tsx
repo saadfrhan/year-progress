@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import timePassedOfThisYear from "./lib/time-left";
 import TimePassedSlider from "./components/time-passed-slider";
 import Footer from "./components/footer";
+import Seo from "./components/seo";
 
 export default function App() {
   const [data, setData] = useState<
@@ -31,6 +32,10 @@ export default function App() {
 
   return (
     <div className="flex flex-col justify-between space-y-6">
+      <Seo
+        description={`Track the progress of the year ${new Date().getFullYear()}`}
+        title={`${new Date().getFullYear()} Year Progress`}
+      />
       <div className="flex flex-col gap-y-6 justify-center">
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl">
           {new Date().getFullYear()} Year Progress
