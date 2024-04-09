@@ -1,0 +1,4 @@
+User-Agent: *
+
+Host: https://yeargauge.vercel.app
+Sitemap: https://yeargauge.vercel.app/sitemap.xml
