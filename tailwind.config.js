@@ -72,7 +72,7 @@ export const theme = {
     },
   },
   fontFamily: {
-    rosarivo: ["Rosarivo", "serif"],
+    poppins: ["Poppins", "serif"],
   },
 };
 export const plugins = [require("tailwindcss-animate")];

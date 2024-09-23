@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
-import "@fontsource/rosarivo";
+import "@fontsource/poppins";
 import { ThemeProvider } from "./context/theme-provider.tsx";
 import { HelmetProvider } from "react-helmet-async";
 
